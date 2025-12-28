@@ -2,7 +2,7 @@
 
 Bu proje, otopark giriş-çıkış süreçlerini otomatize etmek için geliştirilmiş, Yapay Zeka destekli bir yönetim panelidir. Kamera görüntülerinden plaka tanıma, otomatik ücret hesaplama ve geçmiş verilerle kalış süresi tahmini gibi özellikleri bir arada sunar.
 
-Öne Çıkan Özellikler
+# Öne Çıkan Özellikler
 Plaka Tanıma: EasyOCR ve OpenCV kullanarak araç plakalarını görüntülerden otomatik olarak okur.
 
 Akıllı Ücretlendirme: Giriş ve çıkış saatleri arasındaki farka göre dinamik (saatlik/günlük) ücret hesabı yapar.
@@ -15,7 +15,7 @@ Makine Öğrenmesi: Random Forest algoritması ile plaka il kodu, giriş saati v
 
 Veritabanı Yönetimi: SQLite entegrasyonu ile tüm giriş-çıkış kayıtlarını ve ücret bilgilerini saklar.
 
-🛠️ Kullanılan Teknolojiler
+# 🛠️ Kullanılan Teknolojiler
 Dil: Python 
 
 Görüntü İşleme: OpenCV, EasyOCR
@@ -36,7 +36,7 @@ Görselleştirme: Plotly
 
 
 
-🚀 Kurulum ve Çalıştırma
+# 🚀 Kurulum ve Çalıştırma
 1. Depoyu Klonlayın
 Bash
 
