@@ -16,13 +16,14 @@ Bu proje, görüntü işleme ve veri yönetimi teknolojilerini bir araya getiren
 
 ## 🛠️ Kurulum
 
-Sistemi yerel bilgisayarınızda çalıştırmak için Python 3.x yüklü olmalıdır. Gerekli kütüphaneleri aşağıdaki komutla yükleyebilirsiniz:
+Sistemi yerel bilgisayarınızda çalıştırmak için Python yüklü olmalıdır. Gerekli kütüphaneleri aşağıdaki komutla yükleyebilirsiniz:
 
-pip install streamlit opencv-python easyocr numpy pandas plotly
-Not: EasyOCR ilk çalıştığında plaka tanıma için gerekli olan AI modellerini otomatik olarak indirecektir.
-🚀 Uygulamayı başlatmak için terminale şu komutu yazın:Bashstreamlit run appv2.py
-Görsel Yükle: Sisteme bir araç fotoğrafı yükleyin.Otomatik Tanıma: Sistem plakayı bulur ve Türkiye plaka formatına uygunluğunu denetler.
-İşlem Yönetimi: - Araç içeride değilse: GİRİŞ kaydı oluşturulur.Araç zaten içerideyse: ÇIKIŞ işlemi yapılır ve süreye göre ücret yansıtılır.
-📂 Proje Yapısı: appv2.py- Arayüz, görüntü işleme ve veritabanı mantığını içeren ana dosya.otopark_web_v1.db- Tüm kayıtların tutulduğu SQLite veritabanı (Otomatik oluşturulur).ml.py: (Geliştirme Aşamasında) Otoparkta kalış süresi tahmini için hazırlanan makine öğrenmesi modeli.
+* pip install streamlit opencv-python easyocr numpy pandas plotly
+* Not: EasyOCR ilk çalıştığında plaka tanıma için gerekli olan AI modellerini otomatik olarak indirecektir.
+* 🚀 Uygulamayı başlatmak için terminale şu komutu yazın:Bashstreamlit run appv2.py
+* Görsel Yükle: Sisteme bir araç fotoğrafı yükleyin.Otomatik Tanıma: Sistem plakayı bulur ve Türkiye plaka formatına uygunluğunu denetler.
+* İşlem Yönetimi: - Araç içeride değilse: GİRİŞ kaydı oluşturulur.Araç zaten içerideyse: ÇIKIŞ işlemi yapılır ve süreye göre ücret yansıtılır.
+* 📂 Proje Yapısı: appv2.py- Arayüz, görüntü işleme ve veritabanı mantığını içeren ana dosya.otopark_web_v1.db- Tüm kayıtların tutulduğu SQLite veritabanı (Otomatik oluşturulur).ml.py: (Geliştirme Aşamasında)
+* Otoparkta kalış süresi tahmini için hazırlanan makine öğrenmesi modeli.
 
 <img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/65802b4c-c652-40ad-ae20-233534967acc" />
