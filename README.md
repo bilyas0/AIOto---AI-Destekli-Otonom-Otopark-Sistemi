@@ -8,7 +8,7 @@ Bu proje, görüntü işleme ve veri yönetimi teknolojilerini bir araya getiren
 * **Gelişmiş Görüntü İşleme:** Plaka okuma başarısını artırmak için gürültü azaltma, keskinleştirme ve `super_iyilestirme` (CLAHE ve Thresholding) algoritmalarını kullanır.
 * **Dinamik Ücretlendirme:** Araçların içeride kaldığı süreye göre (saatlik veya günlük) otomatik ücret hesaplar (Örn: 0-1 saat 100 TL, 24+ saat günlük 500 TL).
 * **Canlı Dashboard:** Otopark kapasitesini, doluluk oranını ve güncel araç listesini `Streamlit` ve `Plotly` ile anlık olarak görselleştirir.
-* **Hacker/Dark Tema:** Kullanıcı dostu, özelleştirilmiş karanlık mod arayüz tasarımı.
+* **Tema:** Kullanıcı dostu, özelleştirilmiş karanlık mod arayüz tasarımı.
 
 # Ön İşleme Adımları
 
